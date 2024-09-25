@@ -2,6 +2,13 @@
 # CF REST API w/ JWTs (Adobe ColdFusion 2023)
 
 This project is a simple REST API built with Adobe ColdFusion (2023) implementing JWT/JWE authentication.
+It utilizes new methods in ColdFusion 2023 for interacting with JSON Web Tokens;
+
+   - createSignedJWT
+   - createEncryptedJWT
+   - verifySignedJWT
+   - verifyEncryptedJWT
+
 
 ## Features
 - JWT authentication for secure API access
